@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>childflexproperties</title>
+    <style>
+        .pro{
+            background-color: blanchedalmond;
+            display: flex;
+
+        }
+        .pro>div{
+            margin: 20px;
+            padding: 20px;
+            background-color: aquamarine;
+           
+        }
+        .pro1{
+            background-color: bisque;
+            display: flex;
+        }
+        .pro1>div{
+            margin: 20px;
+            padding: 20px;
+            background-color: aquamarine;
+          
+        }
+        .pro2{
+            display: flex;
+            background-color: beige;
+        }
+        .pro2>div{
+            margin: 20px;
+            padding: 20px;
+            background-color: blue;
+        }
+    </style>
+
+</head>
+<body>
+    <h2>order property</h2>
+    <div class="pro">
+        
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div style="order:5">6 </div>
+        <div style="order:7">7</div>
+        <div style="order:6">8</div>
+        <div>9</div>
+        <div>10</div>
+    </div>
+    <h2>flex-grow</h2>
+    <div class="pro1"> 
+
+    <div>krishnaiah</div>
+    <div style="flex-grow: 7;">komala</div>
+    <div>maadesh</div>
+    <div style="flex-shrink:  3;">yuvaraj</div>
+</div>
+    <h2>flex_basis</h2>
+    <div class="pro2">
+    <div style="flex-basis: 2830px;">krishnaiah</div>
+    <div >komala</div>
+    <div style="align-self: center;" >maadesh</div>
+    <div >yuvaraj</div>
+   </div>
+</body>
+</html>
